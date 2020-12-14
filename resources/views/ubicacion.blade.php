@@ -15,12 +15,10 @@
 
         <div class="col-md-4">
             <h2>Teléfono:</h2>
-            <p>4561385412</p>
+            <p>4561390412</p>
             <h2>Correo electrónico:</h2>
-            <p>TIenenComida@gmail.com</p>
-            <h2>Horario:</h2>
-            <p>Lunes-Viernes de 8:00am a 5:00pm</p>
-
+            <p>DonaloValle@gmail.com</p>
+            
         </div>
     </div>
     

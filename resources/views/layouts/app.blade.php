@@ -44,7 +44,7 @@
                     <img src="{{asset('img/logo.png')}}" width="90" height="80" alt="" loading="lazy">
                   </a>
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Dónalo
+                    ¡Dónalo!
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -76,7 +76,7 @@
                           </li>
                           
                           <li class="nav-item active">
-                            <a class="nav-link button" href=" ">¡Dona!</a>
+                            <a class="nav-link button" href=" {{route('donar')}} ">¡Dona!</a>
                           </li>
                           <li class="nav-item active">
                             <a class="nav-link button" href=" {{route('ubicacion')}} ">Ubicación</a>
@@ -173,13 +173,24 @@
                     <!-- Links -->
                     <div class="footer-columna">
                         <h4>Categorías</h4>
-                        <a href=" ">Bebidas</a>
+                        <a href=" ">Alimentos enlatados</a>
                         <br>
-                        <a href="  ">Postres</a>
+                        <a href="  ">Ropa y Calzado</a>
                         <br>
-                        <a href=" ">Especiales</a>
+                        <a href=" ">Cobijas</a>
                         <br>
-                        
+                        <a href="">Muebles</a>
+                        <br>
+                        <a href="">Electrodomésticos</a>
+                        <br>
+                        <a href="">Higiene</a>
+                        <br>
+                        <a href="">Juguetes</a>
+                        <br>
+                        <a href="">Medicamentos</a>
+                        <br>
+                        <a href="">Otros</a>
+                        <br>
                         
                     </div>
                     
@@ -193,7 +204,7 @@
                     <!-- Links -->
                     <div class="footer-columna">
                         
-                        <h4>Conoce nuestros productos</h4>
+                        <h4>¿Qué puedo hacer?¡Descúbrelo!</h4>
                         <a
                             href=" {{route('menu')}} ">Menú</a>
                         <br>
@@ -212,7 +223,7 @@
         
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">&copy; 2020, Todos los derechos reservados | <a href="#" style="color: white;">
-            <a href="#">¿TIenen Hambre?.</a>
+            <a href="#">¡Dónalo!</a>
         </div>
         <!-- Copyright -->
         

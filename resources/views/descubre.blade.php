@@ -27,7 +27,7 @@
             <div class="card-body">
                 <div class="conteiner_platillos">
                     {{-- <a href="{{route('platillo',$product->id)}}"> --}}
-                      <img src="{{$product->image}} " alt="" class="card-img-top">
+                      <a href="{{route('comprar',$product->id)}}"><img src="{{$product->image}} " alt="" class="card-img-top"></a>
                     </a>    
                     <h5 class="card-title">Nombre:{{$product->name}}</h5>
                     <p class="">Descripción:{{$product->description}}</p>
@@ -40,7 +40,7 @@
                     <li class="list-group-item">Categoría:{{$product->categorie_name}}</li>
                   </ul>
                   <div class="card-body">
-                    <a href="#" class="btn btn-primary">!Lo necesito!</a>
+                    <a href=" {{route('comprar',$product->id)}} " class="btn btn-primary">!Lo necesito!</a>
                   </div>
             </div>
             

@@ -30,10 +30,13 @@ Route::get('/ubicacion', function () {
 })->name('ubicacion');
 
 
-Route::get('/comprar/{id}', 'ComprarController@index')->name('comprar');
+Route::get('/recibir-donacion/{id}', 'ComprarController@index')->name('comprar');
 
 Route::post('/buy','ComprarController@buy')->name('buy');
+Route::post('/registrarDonacion','DonarController@donar')->name('registrarDonacion');
 
 Route::get('/descubre/{categorie}','DescubreController@categorie')->name('categorie');
 Route::get('/descubre','DescubreController@index')->name('descubre');
+Route::get('/donar','DonarController@index')->name('donar');
+
 
