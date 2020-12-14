@@ -12,15 +12,39 @@ class CategorySeeder extends Seeder
     public function run()
     {
         App\Category::create([
-            'name' => 'Postres'
+            'name' => 'Alimentos enlatados'
         ]);
 
         App\Category::create([
-            'name' => 'Bebidas'
+            'name' => 'Ropa y calzado'
         ]);
 
         App\Category::create([
-            'name' => 'Especiales'
+            'name' => 'Cobijas'
+        ]);
+
+        App\Category::create([
+            'name' => 'Muebles'
+        ]);
+
+        App\Category::create([
+            'name' => 'Electrodomésticos'
+        ]);
+
+        App\Category::create([
+            'name' => 'Higiene'
+        ]);
+
+        App\Category::create([
+            'name' => 'Juguetes'
+        ]);
+
+        App\Category::create([
+            'name' => 'Medicamentos'
+        ]);
+
+        App\Category::create([
+            'name' => 'Otros'
         ]);
     }
 }

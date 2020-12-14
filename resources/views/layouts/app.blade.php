@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
     {{-- <link rel="stylesheet" href="css/estilosplatillos.css">  --}}
 </head>
-<body>
+<body ng-controller="testCtrl">
 
     <div id="app">
         {{-- <header>
@@ -38,13 +38,13 @@
         </header>  --}}
 
 
-        <nav class="navbar navbar-expand-md navbar-light shadow-sm" style="background-color: #F44336; important;">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm" style="background-color: var(--primary-color) ; important;">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="{{asset('img/ICONO.png')}}" width="90" height="80" alt="" loading="lazy">
+                    <img src="{{asset('img/logo.png')}}" width="90" height="80" alt="" loading="lazy">
                   </a>
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    ¿TIenen Comida?
+                    Dónalo
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -54,18 +54,29 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link button" href=" {{route('menu')}} ">Menú</a>
+                            <a class="nav-link button" href=" {{route('descubre')}} ">Descubre</a>
                           </li>
 
                           
-                          <li class="nav-item active">
-                            <a class="nav-link button" href=" {{route('postres')}} ">Postres</a>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link button dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Categorías
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href=" {{route('categorie','Alimentos enlatados')}} ">Alimentos enlatados</a>
+                              <a class="dropdown-item" href=" {{route('categorie','Ropa y calzado')}}">Ropa y calzado</a>
+                              <a class="dropdown-item" href="{{route('categorie','Cobijas')}}">Cobijas</a>
+                              <a class="dropdown-item" href="{{route('categorie','Muebles')}}">Muebles</a>
+                              <a class="dropdown-item" href="{{route('categorie','Electrodomésticos')}}">Electrodomésticos</a>
+                              <a class="dropdown-item" href="{{route('categorie','Higiene')}}">Higiene</a>
+                              <a class="dropdown-item" href="{{route('categorie','Juguetes')}}">Juguetes</a>
+                              <a class="dropdown-item" href={{route('categorie','Medicamentos')}}>Medicamentos</a>
+                              <a class="dropdown-item" href="{{route('categorie','Otros')}}">Otros</a>
+                            </div>
                           </li>
+                          
                           <li class="nav-item active">
-                            <a class="nav-link button" href=" {{route('especiales')}} ">Especiales</a>
-                          </li>
-                          <li class="nav-item active">
-                            <a class="nav-link button" href=" {{route('bebidas')}} ">Bebidas</a>
+                            <a class="nav-link button" href=" ">¡Dona!</a>
                           </li>
                           <li class="nav-item active">
                             <a class="nav-link button" href=" {{route('ubicacion')}} ">Ubicación</a>
@@ -162,11 +173,11 @@
                     <!-- Links -->
                     <div class="footer-columna">
                         <h4>Categorías</h4>
-                        <a href=" {{route('bebidas')}} ">Bebidas</a>
+                        <a href=" ">Bebidas</a>
                         <br>
-                        <a href="  {{route('postres')}}">Postres</a>
+                        <a href="  ">Postres</a>
                         <br>
-                        <a href=" {{route('especiales')}}">Especiales</a>
+                        <a href=" ">Especiales</a>
                         <br>
                         
                         

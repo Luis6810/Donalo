@@ -29,10 +29,11 @@ Route::get('/ubicacion', function () {
     return view('ubicacion');
 })->name('ubicacion');
 
-Route::get('/postres', 'PostresController@index')->name('postres');
-Route::get('/bebidas', 'BebidasController@index')->name('bebidas');
 
 Route::get('/comprar/{id}', 'ComprarController@index')->name('comprar');
 
 Route::post('/buy','ComprarController@buy')->name('buy');
+
+Route::get('/descubre/{categorie}','DescubreController@categorie')->name('categorie');
+Route::get('/descubre','DescubreController@index')->name('descubre');
 
