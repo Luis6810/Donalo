@@ -3,7 +3,7 @@
 @section('content')
 <section class="group group--color mb-2">
     <div class="contra">
-      <h2 class="main__title">Encuéntranos</h2> <!--Primer titulo -->
+      <h2 class="main__title">Encuentranos</h2> <!--Primer titulo -->
     </div>
 </section>
 <div class="container">
@@ -19,10 +19,6 @@
             <h2>Correo electrónico:</h2>
             <p>DonaloValle@gmail.com</p>
             
-            
-            <h2>Horario de atención:</h2>
-            <p>Lunes-Viernes de 8:00am a 5:00pm</p>
-
         </div>
     </div>
     

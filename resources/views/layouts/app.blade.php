@@ -180,16 +180,16 @@
                         <a href=" ">Cobijas</a>
                         <br>
                         <a href="">Muebles</a>
+                      <br>
+                       <a href="  ">Electrodomésticos</a>
                         <br>
-                        <a href="">Electrodomésticos</a>
+                       <a href="  ">Higiene</a>
                         <br>
-                        <a href="">Higiene</a>
+                       <a href="  ">Juguetes</a>
                         <br>
-                        <a href="">Juguetes</a>
+                       <a href="  ">Medicamentos</a>
                         <br>
-                        <a href="">Medicamentos</a>
-                        <br>
-                        <a href="">Otros</a>
+                       <a href="  ">Otros</a>
                         <br>
                         
                     </div>
@@ -204,7 +204,7 @@
                     <!-- Links -->
                     <div class="footer-columna">
                         
-                        <h4>¿Qué puedo hacer?¡Descúbrelo!</h4>
+                        <h4>Almacén</h4>
                         <a
                             href=" {{route('menu')}} ">Menú</a>
                         <br>

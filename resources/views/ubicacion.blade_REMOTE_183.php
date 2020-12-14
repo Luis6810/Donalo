@@ -15,11 +15,9 @@
 
         <div class="col-md-4">
             <h2>Teléfono:</h2>
-            <p>4561390412</p>
+            <p>4561385412</p>
             <h2>Correo electrónico:</h2>
-            <p>DonaloValle@gmail.com</p>
-            
-            
+            <p>donalo_valle@gmail.com</p>
             <h2>Horario de atención:</h2>
             <p>Lunes-Viernes de 8:00am a 5:00pm</p>
 
