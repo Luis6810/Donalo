@@ -173,11 +173,23 @@
                     <!-- Links -->
                     <div class="footer-columna">
                         <h4>Categorías</h4>
-                        <a href=" ">Bebidas</a>
+                        <a href=" ">Alimentos enlatados</a>
                         <br>
-                        <a href="  ">Postres</a>
+                        <a href="  ">Ropa y Calzado</a>
                         <br>
-                        <a href=" ">Especiales</a>
+                        <a href=" ">Cobijas</a>
+                        <br>
+                        <a href="">Muebles</a>
+                      <br>
+                       <a href="  ">Electrodomésticos</a>
+                        <br>
+                       <a href="  ">Higiene</a>
+                        <br>
+                       <a href="  ">Juguetes</a>
+                        <br>
+                       <a href="  ">Medicamentos</a>
+                        <br>
+                       <a href="  ">Otros</a>
                         <br>
                         
                         
@@ -193,7 +205,7 @@
                     <!-- Links -->
                     <div class="footer-columna">
                         
-                        <h4>Conoce nuestros productos</h4>
+                        <h4>Almacén</h4>
                         <a
                             href=" {{route('menu')}} ">Menú</a>
                         <br>
@@ -212,7 +224,7 @@
         
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">&copy; 2020, Todos los derechos reservados | <a href="#" style="color: white;">
-            <a href="#">¿TIenen Hambre?.</a>
+            <a href="#">¡Dónalo!</a>
         </div>
         <!-- Copyright -->
         
