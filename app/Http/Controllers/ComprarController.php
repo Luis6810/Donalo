@@ -18,7 +18,7 @@ class ComprarController extends Controller
     }
 
     public function buy(Request $request){
-        Product::where('id',$request->id)->decrement('stock');
-        return redirect()->back()->with('success', 'La compra se ha realizado exitosamente, gracias por su preferencia');   
+        Product::where('id',$request->id)->delete();
+        return redirect()->route('welcome')->with('success', '¡Genial! Ahora puedes pasar por tu artículo a nuestros puntos de distribuición');   
     }
 }

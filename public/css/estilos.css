@@ -1,5 +1,11 @@
 *{margin:0; padding:0;} 
 
+:root {
+    --primary-color: #673ab7;
+    --secondary-color: #E040FB;
+    --dark-color: #512DA8;
+  }
+
 /*-----------------Color de todo el fondo-----------*/
 .body{ 
     background-image:#FFF9C4;

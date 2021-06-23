@@ -3,7 +3,7 @@
 @section('content')
 <section class="group group--color mb-2">
     <div class="contra">
-      <h2 class="main__title">Confirmar compra</h2> <!--Primer titulo -->
+      <h2 class="main__title">Confirmar recepción de donativos</h2> <!--Primer titulo -->
     </div>
 </section>
 <div class="container">
@@ -12,18 +12,15 @@
         <div class="conte">
             <div class="row">
                 <div class="col-md-6">
-                    <h4>Platillo:</h4>
-            <h5>{{$product->name}}</h5> 
-            <h4>Precio Unidario:</h4>
-            <h5>{{$product->price}}</h5>
-            <h4>Precio Total:</h4>
-            <h5>{{$product->price}}</h5>
+                    <h4>Nombre del producto:</h4>
+                    <h5>{{$product->name}}</h5>
+                    <img class="img-fluid" src=" {{$product->image }} " alt="">
                 </div>
                 <div class="col-md-6">
                     <h4>Descripción:</h4>
             <h5>{{$product->description}}</h5> 
-            <h4>Disponibles:</h4>
-            <h5>{{$product->stock}}</h5>
+            <h4>Categoría:</h4>
+            <h5>{{$product->categorie_name}}</h5>
 
                 </div>
             </div>
@@ -36,11 +33,7 @@
             <div class="content">
             <h2 class="main__title">Información del usuario:</h2>
             <span class="linea"></span> <!--línea de divición -->
-            <input type="hidden" name="id" value=" {{$product->id}} " >
-            <input type="text" name="nombre" placeholder="Nombre del titular" class="input-48">
-            <input type="text" name="tarjeta" placeholder="No. Tarjeta" class="input-48">
-            <input type="text" name="cvv" placeholder="CVV" class="input-48">
-                
+            <input type="hidden" name="id" value=" {{$product->id}} " >                
             <input type="text" name="municipio" placeholder="Municipio" class="input-48">
             <input type="text" name="Colonia" placeholder="Colonia" class="input-48">
             <input type="text" name="Calle" placeholder="Calle" class="input-48">
