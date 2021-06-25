@@ -63,6 +63,10 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
+                            @csrf
+                            
+                            {!! htmlFormSnippet() !!}
+                            
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>

@@ -20,6 +20,10 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
     {{-- <link rel="stylesheet" href="css/estilosplatillos.css">  --}}
+
+    <!-- RECAPTCHAAA -->
+    
+    {!! htmlScriptTagJsApi(['lang' => 'es']) !!}
 </head>
 <body ng-controller="testCtrl">
 
