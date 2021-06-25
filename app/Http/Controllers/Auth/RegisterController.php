@@ -55,6 +55,14 @@ class RegisterController extends Controller
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
+    public function rules()
+    {
+        return [
+            'g-recaptcha-response' => 'recaptcha'
+            
+
+        ];
+    }
 
     /**
      * Create a new user instance after a valid registration.
