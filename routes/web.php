@@ -38,5 +38,5 @@ Route::post('/registrarDonacion','DonarController@donar')->name('registrarDonaci
 Route::get('/descubre/{categorie}','DescubreController@categorie')->name('categorie');
 Route::get('/descubre','DescubreController@index')->name('descubre');
 Route::get('/donar','DonarController@index')->name('donar');
-
+Route::get('/galeria', 'GaleriaController@index')->name('galeria');
 

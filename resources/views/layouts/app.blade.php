@@ -85,6 +85,9 @@
                           <li class="nav-item active">
                             <a class="nav-link button" href=" {{route('ubicacion')}} ">Ubicación</a>
                           </li>
+                          <li class="nav-item active">
+                            <a class="nav-link button" href=" {{route('galeria')}} ">Galería</a>
+                          </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
